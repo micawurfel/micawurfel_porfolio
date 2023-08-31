@@ -1,0 +1,24 @@
+@mixin flex ($direction, $wrap, $justify, $align){
+    display: flex;
+    flex-flow: $direction $wrap;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin links{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+}
+
+@mixin mobile($size: 480px){
+    @media screen and (max-width:$size){
+        @content;
+    }
+}
+
+@mixin darkmode{
+    @media (prefers-color-scheme: dark) {
+        @content;
+    }
+}

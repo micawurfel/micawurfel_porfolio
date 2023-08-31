@@ -1,0 +1,25 @@
+{
+    "projects":[
+      {
+        "id": 1,
+        "title": "E-commerce",
+        "description": "web using Reactjs,",
+        "lenguajes":[
+            "html", "css", "bootstrp", "javascript", "react", "firebase"
+        ],
+        "img": "images/e-commerce.jpg",
+        "url": "https://e-commerce-de-ropa.netlify.app/", 
+        "git": "https://github.com/micawurfel/e-commerce-app"
+      },
+      {
+        "id": 3,
+        "title": "Streaming App",
+        "description": "",
+        "lenguajes":[
+            "react", "javascript", "html", "css"
+        ],
+        "img": "https://img.freepik.com/vector-gratis/miniatura-moderna-youtube-fondo-arte-comico_1361-2738.jpg?w=1800&t=st=1690188616~exp=1690189216~hmac=48b76fb2dd080b9e99fc9166d7602e2b2285fa2e622225a03f01dee54761a1b2",
+        "url": "https://www.google.com"
+      }
+    ]
+}
