@@ -10,6 +10,10 @@ To start the project I used Vite, executing the command: $ npm create vite@lates
 
 For the styles, use the BEM methodology and the SASS processor.
 
+Email service: EmailJS 
+
+Multilengual Site: i18next
+
 ### Website: 
 
 If you want to see the finished project you can visit my website: www.micawurfel.com

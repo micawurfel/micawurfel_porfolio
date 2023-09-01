@@ -1,11 +1,14 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 export default function Home() {
+  const { t } = useTranslation("global"); 
+
   return (
     <>
         <section className='section section--inicio'>
-          <h1 className='section__h1'>Hi! I am Mica Wurfel!</h1>
-          <h2 className='section__h2'>Front-end developer</h2>
+          <h1 className='section__h1'>{t('home.title')}</h1>
+          <h2 className='section__h2 section__h2--inicio'>Front-end developer</h2>
         
           <div className='section__circles'>
             <svg className='section__circle section__circle--circle1' viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">

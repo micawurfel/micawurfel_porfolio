@@ -1,12 +1,21 @@
 $color:(
     text: black,
-    enphasis: '',
-    icons: black,
-    back: #8C3A26,
+    enphasis: #8C3A26,
+    back: #CCB9A5,
     circle1: #CCB9A5,
     circle2: #8C3A26,
     circle3: #FF9972,
     circle4: #CCB9A5,
+);
+
+$color-darkmode:(
+    text: white,
+    enphasis: #8C3A26,
+    back: grey,
+    circle1: black,
+    circle2: #8C3A26,
+    circle3: #FF9972,
+    circle4: black,
 );
 $font:(
     enphasis: 'Playfair Display',

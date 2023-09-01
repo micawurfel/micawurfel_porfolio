@@ -1,0 +1,81 @@
+@import './variables';
+
+#dark{
+    
+    *{
+        color: map-get($color-darkmode, text);
+    }
+    
+    // SECTIONS
+    .section{
+
+        &--contact{
+            background-color: rgb(255 255 255/ 0.3);
+        }
+    
+    
+        // HOME
+    
+        
+        &__circle--circle1{
+            fill: map-get($color-darkmode , circle1 );
+        }
+        &__circle--circle2{
+            fill: map-get($color-darkmode , circle2 );
+        }
+        &__circle--circle3{
+            fill: map-get($color-darkmode , circle3 );
+        }
+        &__circle--circle4{
+            fill: map-get($color-darkmode , circle4 );
+        }
+        
+    
+    // ABOUT
+    
+        &__div--about{
+            background-color: map-get($color-darkmode, back);
+            }
+    }
+
+    // PROJECT 
+
+    .article{
+        background-color: whitesmoke;
+    }
+    
+    // CONTACT
+    
+    &__input{
+        background-color: inherit;
+    }
+    &__button{
+        background-color: inherit;
+    }
+    }
+    
+    // Social Media Icons
+    
+    .div--social-media{
+        color: map-get($color-darkmode , enphasis );
+    }
+    
+    // Skills Icons
+    .div--skills{
+        color: inherit;
+    }
+    
+    // Language 
+    .div--language{
+        .div__button{
+            background-color: transparent;
+    }
+    
+    // Dark/Light buttons
+    .div--theme{
+        .div__button{
+            background-color: transparent;
+        }
+    }
+
+}

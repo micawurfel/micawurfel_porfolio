@@ -1,0 +1,21 @@
+{
+    "Home": "Home",
+    "About": "About Me",
+    "Projects": "Projects",
+    "Contact": "Contact",
+
+    "home":{
+        "title": "Hi! I am Mica Wurfel"
+    },
+    "about":{
+        "p1":"Hi there, I am Mica Wurfel. I am from Argentina. I always was a curious person interested in many topics. I like to describe myself as a self-taught person. I went to the college where I got a Degree in Tourism. In the mindtime, I start to make websites with no-code with Wordpress for hobby, and also digital marketing. In consequence I ran into the IT world, where I found something I am really passionate for.",
+        "p2":"Currently I work as a frontend developer, finding new challenges and solutions. I believe that the best work comes from collaborating with passionate people, always trying to create the best experience for our users while considering business goals.",
+        "p3":"I like to stay updated and learn about new technologies, so I'm studying MERN Stack to be a backend developer as well.",
+        "p4":"My skills:"
+    },
+    "contact":{
+        "name": "Your name",
+        "email": "Your email",
+        "button": "Get in touch"
+    }
+}

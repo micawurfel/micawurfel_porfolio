@@ -1,0 +1,21 @@
+{
+    "Home": "Inicio",
+    "About": "Sobre Mi",
+    "Projects": "Projectos",
+    "Contact": "Contacto",
+
+    "home":{
+        "title": "Hola! Soy Mica Wurfel"
+    },
+    "about":{
+        "p1":"Hola, soy Mica Wurfel. Soy de Argentina. Siempre fui una persona curiosa a la que le interesan muchos temas. Me gusta describirme como una persona autodidacta. Fui a la universidad y obtuve el título de Licenciatura en Turismo. Mientras tanto comencé a hacer sitios web con Wordpress como hobby, tambien me interese por el marketing digital. En consecuencia termine dentro del mundo IT, donde encontre algo que me apasiona.",
+        "p2":"Actualmente trabajo como desarrolladora frontend, enfrentandome a nuevos desafios y encontrando soluciones. Creo que el mejor trabajo surge de colaborar con personas apasionadas, intentando siempre crear la mejor experiencia para nuestros usuarios teniendo en cuenta los objetivos comerciales.",
+        "p3":"Me gusta mantenerme actualizado y aprender sobre nuevas tecnologías, por eso estoy estudiando el Stack MERN para ser desarrolladora backend también.",
+        "p4": "Mis habilidades:"
+    },
+    "contact":{
+        "name": "Tu Nombre",
+        "email": "Tu correo electrónico",
+        "button": "Ponte en contacto"
+    }
+}
