@@ -1,23 +1,21 @@
 $color:(
-    text: black,
-    enphasis: #8C3A26,
-    back: #CCB9A5,
+    principal: #181818,
+    secundary: #f0f0f0,
+    enphasis: #DF2800,
+    back: #fff0e2,
     circle1: #CCB9A5,
-    circle2: #8C3A26,
-    circle3: #FF9972,
+    circle2: #F8C49C,
+    circle3: #f1bba6,
     circle4: #CCB9A5,
 );
 
 $color-darkmode:(
-    text: white,
+    principal: #f0f0f0,
+    secundary: #292929,
     enphasis: #8C3A26,
     back: grey,
-    circle1: black,
-    circle2: #8C3A26,
-    circle3: #FF9972,
-    circle4: black,
 );
 $font:(
-    enphasis: 'Playfair Display',
     principal: 'Inter',
+    enphasis: 'Playfair Display',
 )

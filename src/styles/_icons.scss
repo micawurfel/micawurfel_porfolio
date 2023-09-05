@@ -1,0 +1,44 @@
+// Social Media Icons
+.div--social-media{
+    color: map-get($color , enphasis);
+    margin: 1rem;
+    @include flex (row, wrap, center, center);
+
+    .div__a{
+        margin: 10px;
+        @include mobile(768px){
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .div__i{
+        margin: 0.2em;
+        font-size: 1.5em;
+    }
+}
+
+// Skills Icons
+.div--skills{
+    @include flex (row, wrap, center, center);
+
+    .div__i{
+        margin: 0.2em;
+        font-size: 1.5em;
+    }
+}
+
+// Language 
+.div--language{
+    .div__button{
+        cursor: pointer;
+        margin-right: 1em;
+    }
+}
+
+// Dark/Light buttons
+.div--theme{
+    .div__button{
+        cursor: pointer;
+        font-size: 1em;
+    }
+}

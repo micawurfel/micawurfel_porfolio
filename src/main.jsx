@@ -4,7 +4,6 @@ import App from './App.jsx'
 import './styles/styles.scss'
 import {I18nextProvider} from 'react-i18next'
 import i18next from 'i18next'
-
 import global_ES from './translations/es/global.json';
 import global_EN from './translations/en/global.json';
 import { ThemeProvider } from './context/ThemeContext.jsx'

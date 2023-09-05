@@ -2,37 +2,25 @@
 
 #dark{
     
-    *{
-        color: map-get($color-darkmode, text);
+    .section, .nav, .footer{
+        color: map-get($color-darkmode, principal);
+        background-color: map-get($color-darkmode, secundary );
     }
     
     // SECTIONS
     .section{
 
-        &--contact{
-            background-color: rgb(255 255 255/ 0.3);
-        }
+    &--inicio{
+        position: relative;
+        top: 0px;
+    }
     
-    
-        // HOME
-    
+    // HOME
+    &__circles{
+        display: none;
+    }
         
-        &__circle--circle1{
-            fill: map-get($color-darkmode , circle1 );
-        }
-        &__circle--circle2{
-            fill: map-get($color-darkmode , circle2 );
-        }
-        &__circle--circle3{
-            fill: map-get($color-darkmode , circle3 );
-        }
-        &__circle--circle4{
-            fill: map-get($color-darkmode , circle4 );
-        }
-        
-    
     // ABOUT
-    
         &__div--about{
             background-color: map-get($color-darkmode, back);
             }
@@ -41,7 +29,7 @@
     // PROJECT 
 
     .article{
-        background-color: whitesmoke;
+        background-color: map-get($color-darkmode, back);
     }
     
     // CONTACT
@@ -56,26 +44,26 @@
     
     // Social Media Icons
     
-    .div--social-media{
-        color: map-get($color-darkmode , enphasis );
-    }
+    // .div--social-media{
+    //     color: map-get($color-darkmode , enphasis );
+    // }
     
-    // Skills Icons
-    .div--skills{
-        color: inherit;
-    }
+    // // Skills Icons
+    // .div--skills{
+    //     color: inherit;
+    // }
     
-    // Language 
-    .div--language{
-        .div__button{
-            background-color: transparent;
-    }
+    // // Language 
+    // .div--language{
+    //     .div__button{
+    //         background-color: transparent;
+    // }
     
-    // Dark/Light buttons
-    .div--theme{
-        .div__button{
-            background-color: transparent;
-        }
-    }
+    // // Dark/Light buttons
+    // .div--theme{
+    //     .div__button{
+    //         background-color: transparent;
+    //     }
+    // }
 
-}
+// }

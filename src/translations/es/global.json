@@ -14,8 +14,8 @@
         "p4": "Mis habilidades:"
     },
     "contact":{
-        "name": "Tu Nombre",
-        "email": "Tu correo electrónico",
+        "name": "Nombre",
+        "email": "Correo electrónico",
         "button": "Ponte en contacto"
     }
 }

@@ -1,0 +1,92 @@
+@import './variables';
+
+
+/* Dark mode */
+@media (prefer-colors-schema: dark){
+    :root{
+        --color-primary: #f0f0f0;
+        --color-secundary: #181818;
+    }
+}
+
+/* Alto contraste */
+@media (prefer-contrast: high){
+    :root{
+        --color-primary: black;
+        --color-secundary: white;
+    }
+}
+
+/* Margin y pading */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+/* body */
+body{
+    min-height: 100vh;
+    font-size: 100%;
+    font-weight: 500;
+    font-family: map-get($font , principal );
+    color: map-get($color, principal );
+    background-color: map-get($color , secundary );
+    line-height: 1.4em;
+    text-align: center;
+}
+
+/* Imagen */
+img, picture, video, iframe, figure{
+    max-width: 100%;
+    width: 100%;
+    display: block;
+}
+
+/* Enlaces */
+
+a{ 
+    display: block;
+}
+
+p a, p i{
+    display: inline;
+}
+
+/* Listas */
+li{
+    list-style-type: none;
+}
+
+/* anclas suaves */
+html{
+    scroll-behavior: smooth;
+}
+
+/* styles por default */
+h1, h2, h3, h4, h5, h6, p, span, a, strong, i {
+    font-size: 1em;
+    font-weight: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* texto seleccionado */
+::selection{
+    background-color: map-get($color , principal );
+    color: map-get($color , secundary );
+}
+
+/* form */
+form, input, textarea, label, button{
+    font-family: inherit;
+    font-size: inherit;
+    hyphens: auto;
+    background-color: transparent;
+    display: block;
+    color: inherit;
+}
+
+

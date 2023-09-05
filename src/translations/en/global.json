@@ -14,8 +14,8 @@
         "p4":"My skills:"
     },
     "contact":{
-        "name": "Your name",
-        "email": "Your email",
+        "name": "Name",
+        "email": "Email",
         "button": "Get in touch"
     }
 }

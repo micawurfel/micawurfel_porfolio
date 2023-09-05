@@ -42,7 +42,7 @@ export default function Contact() {
             onChange={handleChange}
             value={formData.name}
             required
-            placeholder={t("contact.email")}
+            placeholder={t("contact.name")}
             className='section__input' />
 
           <input 

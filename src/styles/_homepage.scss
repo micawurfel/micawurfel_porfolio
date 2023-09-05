@@ -1,0 +1,159 @@
+//SECTIONS
+.section{
+    min-height: 100vh;
+    @include flex(column, nowrap, center, center);
+    text-align: justify;
+
+    &--contact{
+        background-color: rgb(255 255 255/ 0.3);
+    }
+
+    &--inicio{
+        position: relative;
+        top: -60px;
+    }
+
+    // HOME
+    &__h1{
+        text-align: center;
+        font-family: map-get($font , enphasis );
+        font-size: 3.8em;
+        line-height: 1.5em;
+        font-weight: 600;
+        @include mobile{
+            margin: 0.2em;
+        }
+    }
+    &__h2{
+        font-family: map-get($font , enphasis );
+        font-size: 2.5em;
+        font-weight: 600;
+        margin-bottom: 2rem;
+
+    }
+    &__h2--inicio{
+        font-weight: 400;
+    }
+    
+    &__circles{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    &__circle{
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        filter: blur(4em);
+        animation: circle 12s linear infinite;
+    }
+      
+    @keyframes circle{
+        from{ transform: rotate(0deg) scale(2.5);}
+        to{transform: rotate(360deg) scale(2.5);}
+    }
+    
+    &__circle--circle1{
+        fill: map-get($color , circle1 );
+        top: 0;
+        left: 0;
+    }
+    &__circle--circle2{
+        fill: map-get($color , circle2 );
+        top: 0;
+        right: 0;
+    }
+    &__circle--circle3{
+        fill: map-get($color , circle3 );
+        bottom: 0;
+        left: 0;
+    }
+    &__circle--circle4{
+        fill: map-get($color , circle4 );
+        bottom: 0;
+        right: 0;
+    }
+    
+// ABOUT
+
+    &__div{
+        @include flex (row, wrap, center, center);
+        width: 75%;
+    }
+    &__div--projects{
+        @include flex (row, wrap, center, start);
+    }
+    &__div--about{
+        background-color: map-get($color, back);
+        @include mobile(768px){
+            width: 100%;
+            padding: 10px;
+        }
+    }
+    &__img{
+        margin: 1rem;
+        width: 400px;
+        @include mobile(){
+            width: 100%;
+        }
+    }
+    &__article{
+        padding: 1rem;
+        max-width: 600px;
+        @include flex (column, wrap, center, start,)
+    }
+    &__p{
+        padding: 0.5em;
+    }
+
+// CONTACT
+    &__form{
+        width: 50%;
+        @include flex (column, nowrap, center, center);
+        @include mobile(768px){
+            width: 100%;
+            padding: 0px 20px;
+        }
+    }
+    &__input{
+        background-color: map-get($color , secundary );
+        margin-bottom: 1rem;
+        border-radius: 5px;
+        padding: 10px;
+        width: 100%;
+    }
+    &__button{
+        border-radius: 8px;
+        background-color: map-get($color , secundary );
+        padding: 0.6em 1.2em;
+        cursor: pointer;
+    }
+}
+
+.article{
+    margin: 1rem;
+    border-radius: 8px;
+    background-color: map-get($color , secundary );
+    height: auto;
+    width: 18rem;
+    @include flex (column, nowrap, start, center);
+
+    &__img{
+        width: 18rem;
+        border-radius: 8px 8px 0 0 
+    }
+    &__div{
+        padding: 2px;
+        @include flex (column, nowrap, center, center);
+    }
+    &__h3{
+        font-size: 1.5em;
+        margin-bottom: 0.2em;
+    }
+    &__p{
+        text-align: justify;
+    }
+}
