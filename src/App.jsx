@@ -1,14 +1,22 @@
-import React, { useContext}from 'react'
+import React, { useContext, useEffect}from 'react'
+import ReactGA from 'react-ga';
 import { ThemeContext } from './context/ThemeContext';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import AboutMe from './components/AboutMe';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import Navbar from './components/Menu/Navbar';
+import Home from './components/Home/Home';
+import AboutMe from './components/Home/AboutMe';
+import Projects from './components/Home/Projects';
+import Contact from './components/Home/Contact';
 import Footer from './components/Footer';
 
 function App() {
   const {theme} = useContext(ThemeContext) 
+
+  const TRACKING_ID = 'G-0EQZBJY4TR'
+  ReactGA.initialize(TRACKING_ID)
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
 
   return (
     <div id={theme}>

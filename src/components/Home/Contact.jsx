@@ -1,5 +1,5 @@
 import React,{useState, useRef } from 'react'
-import SocialMedia from './SocialMedia'
+import SocialMedia from '../SocialMedia'
 import emailjs from '@emailjs/browser';
 import { useTranslation } from 'react-i18next'
 

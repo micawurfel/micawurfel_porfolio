@@ -1,7 +1,7 @@
 import React from 'react'
-import Imagen from '../assets/img.jpg'
-import SocialMedia from './SocialMedia'
-import Skills from './Skills'
+import Imagen from '../../assets/img.jpg'
+import SocialMedia from '../SocialMedia'
+import Skills from '../Skills'
 import { useTranslation } from 'react-i18next'
 
 export default function AboutMe() {

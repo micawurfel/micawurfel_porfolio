@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import ProjectCard from './ProjectCard'
-import { ApiService } from '../sevices/ApiService'
+import ProjectCard from '../ProjectCard'
+import { ApiService } from '../../sevices/ApiService'
 import { useTranslation } from 'react-i18next'
 
 export default function Projects() {

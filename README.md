@@ -14,6 +14,8 @@ Email service: EmailJS
 
 Multilengual Site: i18next
 
+React-ga: connect to Google Analytics
+
 ### Website: 
 
 If you want to see the finished project you can visit my website: www.micawurfel.com
