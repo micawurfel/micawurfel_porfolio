@@ -3,7 +3,7 @@
       {
         "id": 1,
         "title": "E-commerce",
-        "description": "web using Reactjs,",
+        "description": "e-commerce app using ReactJs, router-dom, context, firebase",
         "lenguajes":[
             "html", "css", "bootstrp", "javascript", "react", "firebase"
         ],
@@ -12,9 +12,9 @@
         "git": "https://github.com/micawurfel/e-commerce-app"
       },
       {
-        "id": 3,
+        "id": 2,
         "title": "Artist Porfolio",
-        "description": "",
+        "description": "Simple page to show pieces of art. Using React, router-dom, context, scss",
         "lenguajes":[
             "react", "javascript", "html", "css"
         ],

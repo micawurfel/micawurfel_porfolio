@@ -32,38 +32,14 @@
         background-color: map-get($color-darkmode, back);
     }
     
-    // CONTACT
-    
-    &__input{
-        background-color: inherit;
+    .nav{
+        &--active{
+            background-color: transparent;
+        }
+        &__div--active{
+            background-color: #80808077;
+        }
     }
-    &__button{
-        background-color: inherit;
-    }
-    }
+}
     
-    // Social Media Icons
     
-    // .div--social-media{
-    //     color: map-get($color-darkmode , enphasis );
-    // }
-    
-    // // Skills Icons
-    // .div--skills{
-    //     color: inherit;
-    // }
-    
-    // // Language 
-    // .div--language{
-    //     .div__button{
-    //         background-color: transparent;
-    // }
-    
-    // // Dark/Light buttons
-    // .div--theme{
-    //     .div__button{
-    //         background-color: transparent;
-    //     }
-    // }
-
-// }

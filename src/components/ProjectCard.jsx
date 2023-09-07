@@ -7,7 +7,10 @@ export default function ProjectCard({project}) {
         <div className='article__div'>
             <h3 className='article__h3'>{project.title}</h3>
             <p className='article__p'>{project.description}</p>
-            <a href={project.url} target='_blank' className='article__a'>See more</a>
+            <p className='article__p'>
+              <a href={project.git} target='_blank' className='article__a'>See code</a>
+              <a href={project.url} target='_blank' className='article__a'>See demo</a>
+            </p>
         </div>
       </article>
   )

@@ -111,6 +111,7 @@
 
 // CONTACT
     &__form{
+        color: map-get($color, principal );
         width: 50%;
         @include flex (column, nowrap, center, center);
         @include mobile(768px){
@@ -133,27 +134,36 @@
     }
 }
 
+// Projects
 .article{
     margin: 1rem;
     border-radius: 8px;
     background-color: map-get($color , secundary );
     height: auto;
-    width: 18rem;
+    width: 20rem;
     @include flex (column, nowrap, start, center);
 
     &__img{
-        width: 18rem;
+        width: 20rem;
         border-radius: 8px 8px 0 0 
     }
     &__div{
-        padding: 2px;
+        padding: 10px;
         @include flex (column, nowrap, center, center);
+        min-height: 12em;
     }
     &__h3{
         font-size: 1.5em;
         margin-bottom: 0.2em;
     }
     &__p{
-        text-align: justify;
+        margin: 10px;
+    }
+    &__a{
+        text-decoration: underline;
+        padding: 20px;
+        &:hover{
+            text-decoration: underline double;
+        }
     }
 }

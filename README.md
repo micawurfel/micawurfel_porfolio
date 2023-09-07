@@ -1,6 +1,6 @@
 # Personal Porfolio Micawurfel
 
-This website is my personal pofolio. Is a onepage app with 3 seccions: About Me, Projects and Contact. The purpose is to show the projects that I developed.
+This website is my personal pofolio. It is a simple page app 3 seccions: About Me, Projects and Contact. The purpose is to show the projects that I developed.
 
 ## Tecnologies 
 
@@ -12,9 +12,11 @@ For the styles, use the BEM methodology and the SASS processor.
 
 Email service: EmailJS 
 
+Dark mode: context 
+
 Multilengual Site: i18next
 
-React-ga: connect to Google Analytics
+Connect to Google Analytics: react-ga
 
 ### Website: 
 

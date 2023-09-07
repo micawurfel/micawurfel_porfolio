@@ -9,13 +9,17 @@ export default function NavbarCollapse() {
         setActive(!active)
     }
 
+    const closeMenu = () => {
+        setActive(false)
+    }
+
   return (
     <div className={ `nav ${ active ? 'nav--active' : '' }`}>
         <button className='nav__button' onClick={toggleMenu}>
             <i className='nav__i'><RiMenuFill/></i>
         </button>
         <div className={ `nav__div ${ active ? 'nav__div--active' : '' }`}>
-            <NavbarNavegation/>
+            <NavbarNavegation closeMenu={closeMenu}/>
         </div>
     </div>
   )
