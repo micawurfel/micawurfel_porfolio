@@ -1,13 +1,13 @@
-import React, {useEffect, useState} from 'react'
+import { useEffect, useState } from 'react'
 import NavbarNavegation from './NavbarNavegation'
 import NavbarCollapse from './NavbarCollapse'
 
 export default function Navbar() {
 
   const [width, setWidth] = useState(window.innerWidth)
- 
+
   useEffect(() => {
-    const handleWindowResize = () =>{
+    const handleWindowResize = () => {
       setWidth(window.innerWidth)
     }
     window.addEventListener('resize', handleWindowResize)
@@ -16,10 +16,10 @@ export default function Navbar() {
   return (
     <nav className='nav'>
       {width > 768
-      ?
-      <NavbarNavegation/>
-      :
-      <NavbarCollapse/>
+        ?
+        <NavbarNavegation />
+        :
+        <NavbarCollapse />
       }
     </nav>
   )

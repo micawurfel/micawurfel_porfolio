@@ -1,5 +1,4 @@
-import React from 'react'
-import {useTranslation} from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 
 export default function LanguageSelector() {
   const [t, i18n] = useTranslation("global")
@@ -14,10 +13,10 @@ export default function LanguageSelector() {
     <div className='div--language'>
       {lng === 'en'
         ?
-        <button className='div__button' onClick={()=>handleChangeLanguage('es')}>ES</button>
+        <button className='div__button' onClick={() => handleChangeLanguage('es')}>ES</button>
         :
-        <button className='div__button' onClick={()=>handleChangeLanguage('en')}>EN</button>
-      } 
+        <button className='div__button' onClick={() => handleChangeLanguage('en')}>EN</button>
+      }
     </div>
   )
 }

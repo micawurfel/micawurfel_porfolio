@@ -21,6 +21,17 @@
         "img": "images/artist-porfolio.jpg",
         "url": "https://www.mailenmorale.com",
         "git": "https://github.com/micawurfel/artist-porfolio"
+      },
+      {
+        "id": 3,
+        "title": "Accommodation website",
+        "description": "design and development with html and css",
+        "lenguajes":[
+            "html", "css", "bootstrp", "sass"
+        ],
+        "img": "images/cabanas.jpg",
+        "url": "https://micawurfel.github.io/coder_proyecto/",
+        "git": "https://github.com/micawurfel/coder_proyecto"
       }
     ]
 }
